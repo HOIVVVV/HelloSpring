@@ -15,7 +15,8 @@ public class HelloSpringApplication {
 
 	@GetMapping(value = "/")
 	public String doGetHelloWorld() {
-		return "Hello World";
+		return "안녕하세요 저는 세종대학교 컴퓨터공학과 박준영입니다.<br>" +
+				" 저는 Seeds 2단계 스터디를 진행중입니다.";
 	}
 
 }

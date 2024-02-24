@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 public class HelloController {
     @GetMapping("hello")
     public String hello(Model model) {
-        model.addAttribute("data", "hello@!@!@");
+        model.addAttribute("data", "이곳에 온 것을 환영합니다!");
         return "hello";
     }
 }
