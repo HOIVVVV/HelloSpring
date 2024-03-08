@@ -17,6 +17,8 @@ public class Member {
     private Long id;
     @Column
     private String userName;
+    @Column
     private String userAge;
+    @Column
     private String userPhoneNumber;
 }
